@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: insight-platform
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
